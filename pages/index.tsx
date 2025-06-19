@@ -1,12 +1,11 @@
 // app/page.tsx
 import ColorToggle from '../components/ColorToggle'
+import PDFConverter from '../components/PDFConverter'
 
 export default function Home() {
   return (
-    <main>
-      <ColorToggle />
-      <h1>Hello PDF Converter</h1>
-      tfdgkhkijyghvg
-    </main>
+    <>
+      <h2>welcome</h2>
+    </>
   )
 }
