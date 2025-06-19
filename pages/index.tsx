@@ -8,9 +8,7 @@ export default function Home() {
   return (
     <div className="relative min-h-screen w-full bg-black text-white overflow-hidden">
       {/* Sparkles background animation */}
-      <Sparkles
-        minSize={0.4}
-        maxSize={1.2}
+      <SparklesPreview
         particleDensity={120}
         className="absolute inset-0 z-0"
       />
