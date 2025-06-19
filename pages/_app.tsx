@@ -2,7 +2,7 @@
 
 import { ChakraProvider, ColorModeScript, extendTheme } from '@chakra-ui/react'
 import { ReactNode } from 'react'
-import './globals.css'
+import '../styles/globals.css' 
 
 const config = {
   initialColorMode: 'light',
